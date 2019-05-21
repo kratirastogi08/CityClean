@@ -1,13 +1,14 @@
 # CityClean
 <div>This app is an initiative towards starting  a garbage picking service across city so as to ensure proper disposal of waste.</div>
+<br>
 <div>The project includes three modules </div>
 <br>
 <ul><li>Client Module</li>
-<li>Collector Module></li>
-<li>Admin Module></li>
+<li>Collector Module</li>
+<li>Admin Module</li>
   </ul>
    <br>
-   <div>This is a client side working module</div>
+   <div>This is a <b>client side<b> working module</div>
    <br>
   <br>
 <div float="left">
