@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Schedule"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="394dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/daily"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="Daily"
+
+            android:textColor="#000306"
+            android:textSize="25sp"
+            app:fontFamily="@font/baloo_bhai" />
+
+        <TextView
+            android:id="@+id/texti"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+
+            android:text="For cancellation of service tap below"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/can0"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#fabb1c"
+            android:text="CANCEL"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="After every three days"
+
+            android:textColor="#000306"
+            android:textSize="25sp"
+            app:fontFamily="@font/baloo_bhai" />
+
+        <TextView
+            android:id="@+id/texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+
+            android:text="For cancellation of service tap below"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/can"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#fabb1c"
+            android:text="CANCEL"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="After every five days"
+
+            android:textColor="#000306"
+            android:textSize="25sp"
+            app:fontFamily="@font/baloo_bhai" />
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="For cancellation of service tap below"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/can1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#fabb1c"
+            android:text="CANCEL"
+            android:textColor="#ffffff"
+            android:visibility="invisible" />
+
+        <RadioButton
+            android:id="@+id/seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="5dp"
+            android:text="After every 1 week"
+
+            android:textColor="#000306"
+            android:textSize="25sp"
+            app:fontFamily="@font/baloo_bhai" />
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="For cancellation of service tap below"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/can2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:text="CANCEL"
+            android:layout_gravity="center"
+            android:background="#fabb1c"
+            android:visibility="invisible" />
+
+    </RadioGroup>
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/schedule"
+    android:text="Schedule"
+    android:layout_marginTop="25dp"
+    android:textColor="#ffffff"
+    android:background="#fabb1c"
+    android:layout_gravity="center"/>
+
+
+
+    <Button
+        android:id="@+id/schedulenow"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        android:background="#fabb1c"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:text="ScheduleNow" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="60dp"
+        android:text="You have 1 min to cancel the scheduled service" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#fabb1c"
+        android:text="CANCEL"
+        android:textColor="#ffffff"
+        android:visibility="invisible" />
+
+
+</LinearLayout>

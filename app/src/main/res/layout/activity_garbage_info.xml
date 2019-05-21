@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GarbageInfo">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="480dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="36dp"
+        android:text="As per the government law please ensure that"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textView12"
+        app:layout_constraintVertical_bias="0.728" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="460dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:text="you perform partial segregation at source i.e"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="440dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="1dp"
+        app:fontFamily="@font/baloo_bhai"
+        android:text="keep the Dry and Wet waste material in two"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="420dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="1dp"
+        app:fontFamily="@font/baloo_bhai"
+        android:text=" different containers"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="73dp"
+        android:layout_height="115dp"
+        android:layout_marginBottom="300dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.791"
+        app:srcCompat="@mipmap/bluebin" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="75dp"
+        android:layout_height="119dp"
+        android:layout_marginBottom="288dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:srcCompat="@mipmap/greenbin" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="43dp"
+        android:layout_height="38dp"
+
+
+        android:layout_marginTop="8dp"
+
+
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@mipmap/greentick" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="35dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="260dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:srcCompat="@mipmap/cross" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="39dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="12dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+
+
+        app:srcCompat="@mipmap/cross" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="39dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="40dp"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
+
+        app:srcCompat="@mipmap/greentick" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        android:text="Dump Wet Waste"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+
+        app:layout_constraintEnd_toStartOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="216dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="32dp"
+        android:text="Dump Dry Waste"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="182dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="1dp"
+        android:text="Blue bin"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginBottom="188dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="238dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginStart="238dp"
+        android:text="Green bin"
+        android:textColor="#000306"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="78dp"
+
+        android:layout_marginEnd="81dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="81dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="146dp"
+        android:text="The collector will come to pick up the garbage"
+        android:textColor="#000306"
+        android:textSize="18sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="38dp"
+
+        android:layout_marginEnd="102dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginStart="104dp"
+        android:text="between 7AM to 10AM"
+        android:textColor="#000306"
+        android:textSize="18sp"
+        app:fontFamily="@font/baloo_bhai"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+
+</android.support.constraint.ConstraintLayout>

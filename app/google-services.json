@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "72753877681",
+    "firebase_url": "https://garbageclean-47bf1.firebaseio.com",
+    "project_id": "garbageclean-47bf1",
+    "storage_bucket": "garbageclean-47bf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72753877681:android:803f31d948db4ced",
+        "android_client_info": {
+          "package_name": "com.example.kratirastogi.garbageclean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72753877681-uhmvvdhl8uk85lsd662scp94mujlarea.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kratirastogi.garbageclean",
+            "certificate_hash": "c999f3a1b4c864fe4c37cdb9850fb3fc3d0cb63b"
+          }
+        },
+        {
+          "client_id": "72753877681-fj6tcm047ghnc6t1rjinc0hn39tlr9u8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZu2KyJtMVbTXEIofys9z9XzH3gNWAhSo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72753877681-fj6tcm047ghnc6t1rjinc0hn39tlr9u8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
