@@ -8,7 +8,7 @@
 <li>Admin Module</li>
   </ul>
    <br>
-   <div>This is a <b>client side<b> working module</div>
+   <div>This is a <b>client side</b> working module</div>
    <br>
   <br>
 <div float="left">
